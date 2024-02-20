@@ -104,6 +104,10 @@ color: #2e2f42;
 
 /* ========= Hero Page styles =========*/
 .hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     padding-top: 188px;
     padding-right: 487px;
     padding-bottom: 292px;
@@ -143,15 +147,31 @@ color: #2e2f42;
 }
 /* ========= /Hero Page styles =========*/
 
-/* ========= Section 2 styles =========*/
-.headline-hthree-stwo {
+/* ========= Section 2 styles =========*/|
+.list {
+    list-style: none;
+}
+.list-ff {
+    display: flex;
+}
+.item {
+
+}
+.list-ff .item:not(:last-child) {
+    margin-right: 24px;
+}
+.list-ff .item {
+    max-width: 264px;
+}
+.text {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
-.paragraph-stwo {
+.text-title {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -162,7 +182,7 @@ color: #2e2f42;
 
 
 /* ========= Section 3 Our Team styles =========*/
-.headline-htwo {
+.title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -170,8 +190,16 @@ color: #2e2f42;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
-.headline-hthree-sthree {
+.item-list {
+    display: flex;
+    gap: 24px;
+}
+.foto {
+    padding-bottom: 32px;
+}
+.title-staff {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -185,23 +213,42 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    padding-bottom: 32px;
 }
-.li-img-out-team {
+.staff-card {
     background: #fff;
+    width: calc((100%-62px) /4 );
 }
 .section-two {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 171px;
+    padding-right: 171px;
     background-color: #fff;
 }
 
 .section-img {
     background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 
 /* ========= /Section 3 Our Team styles =========*/
 
 /* ========= Section 4 Our Portfolio =========*/
+.section-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.list-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px
+    ;
+}
 .h-op {
+    padding-bottom: 72px;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -211,6 +258,8 @@ color: #2e2f42;
         color: #2e2f42;
 }
 .h-four-our-portfolio {
+    padding-left: 16px;
+    padding-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -218,6 +267,9 @@ color: #2e2f42;
     color: #2e2f42;
 }
 .paragraph-four {
+    padding-left: 16px;
+    padding-bottom: 32px;
+    margin-bottom: 48px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -236,8 +288,12 @@ color: #2e2f42;
 
 .ground {
     background: #2e2f42;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-.logo-ground{
+.logo-ground {
+    
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -247,6 +303,7 @@ color: #2e2f42;
     color: #4d5ae5;
 }
 .logo-ground-part{
+    
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -255,6 +312,8 @@ color: #2e2f42;
     color: #f4f4fd;
 }
 .text-ground {
+    padding-top: 16px;
+    width: 264px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
