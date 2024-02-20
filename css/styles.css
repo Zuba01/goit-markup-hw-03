@@ -1,0 +1,211 @@
+/* ========= Common styles =========*/
+body {
+    font-family:'Roboto', sans-serif;
+    color:#434455;
+    background-color: #fff;
+}
+main {
+    
+}
+a{
+    text-decoration: none;
+}
+ul,ol {
+    list-style: none;
+}
+button{
+    cursor: pointer;
+}
+    /* ========= /Common styles =========*/
+
+    /* ========= Page Headder styles =========*/
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-part {
+color: #2e2f42;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+
+}
+
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.address-link:hover,
+.address-link:focus{
+    color: #404bbf
+}
+
+/* ========= /Page Headder styles =========*/
+
+/* ========= Hero Page styles =========*/
+.hero-page{
+    background: #2e2f42;
+}
+.headline-hone {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+.btn-one {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4d5ae5;
+    cursor: pointer; href=""
+}
+.btn-one:hover,
+.btn-one:focus {
+    background: #404bbf;
+}
+/* ========= /Hero Page styles =========*/
+
+/* ========= Section 2 styles =========*/
+.headline-hthree-stwo {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.paragraph-stwo {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* ========= /Section 2 styles =========*/
+
+
+
+/* ========= Section 3 Our Team styles =========*/
+.headline-htwo {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+.headline-hthree-sthree {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.paragraph-sthree {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+.li-img-out-team {
+    background: #fff;
+}
+.section-two {
+    background-color: #fff;
+}
+
+.section-img {
+    background: #f4f4fd;
+}
+
+
+/* ========= /Section 3 Our Team styles =========*/
+
+/* ========= Section 4 Our Portfolio =========*/
+.h-op {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+        color: #2e2f42;
+}
+.h-four-our-portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.paragraph-four {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+.menu-portfolio {}
+
+.menu-portfolio-item {}
+
+.portfolio-img {}
+/* ========= /Section 4 Our Portfolio =========*/
+
+/* ========= Footer styles =========*/
+
+.ground {
+    background: #2e2f42;
+}
+.logo-ground{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo-ground-part{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+.text-ground {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+/* ========= /Footer styles =========*/
