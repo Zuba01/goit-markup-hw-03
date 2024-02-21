@@ -162,7 +162,7 @@ color: #2e2f42;
     display: flex;
 }
 .item {
-     width: calc((100% - 72px) / 4)
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .list-ff .item:not(:last-child) {
     margin-right: 24px;
