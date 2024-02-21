@@ -12,13 +12,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet"/>
-        <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 
 <body>
-    <header class="header">
+  <header class="header">
       <div class="container heared-container">
          <nav class="navigation">
              <a class="logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
@@ -41,7 +42,7 @@
           </ul>
          </address>
      </div>
-    </header>
+  </header>
     <main>
         <section class="hero-page">
          <div class="container hero-container">   
@@ -74,31 +75,39 @@
          </div>
         </section>
         <section class="section-img">
-         <div class="container">
-             <h2 class="title">Our Team</h2>
-             <ul class="item-list list">
-                <li class="staff-card">
-                    <img class="foto" src="./images/markguerrero/mg.jpg" alt="photo of a man in a blue shirt with a beard" width="264" height="260"/>
-                    <h3 class="title-staff">Mark Guerrero</h3>
-                    <p class="paragraph-sthree">Product Designer</p>
-                </li>
-                <li class="staff-card">
-                    <img class="foto" src="./images/tomford/tf.jpg" alt="photo of a man in a blue shirt" width="264" height="260"/>
-                    <h3 class="title-staff">Tom Ford</h3>
-                    <p class="paragraph-sthree">Frontend Developer</p>
-                </li>
-                <li class="staff-card">
-                    <img class="foto" src="./images/camilagarcia/cg.jpg" alt="photo of a girl in a pink sweatshirt" width="264" height="260"/>
-                    <h3 class="title-staff">Camila Garcia</h3>
-                    <p class="paragraph-sthree">Marketing</p>
-                </li>
-                <li class="staff-card">
-                    <img class="foto" src="./images/danielwilson/dw.jpg" alt="photo of a man in a grey sweatshirt" width="264" height="260"/>
-                    <h3 class="title-staff">Daniel Wilson</h3>
-                    <p class="paragraph-sthree">UI Designer</p>
-                </li>
-             </ul>
-         </div>
+            <div class="container">
+                <h2 class="title">Our Team</h2>
+                <ul class="item-list list">
+                    <li class="staff-card">
+                        <img class="foto" src="./images/markguerrero/mg.jpg" alt="photo of a man in a blue shirt with a beard" width="264" height="260"/>
+                        <div class="card-discription">
+                            <h3 class="title-staff">Mark Guerrero</h3>
+                            <p class="paragraph-sthree">Product Designer</p>
+                        </div>
+                    </li>
+                    <li class="staff-card">
+                        <img class="foto" src="./images/tomford/tf.jpg" alt="photo of a man in a blue shirt" width="264" height="260"/>
+                        <div class="card-discription">
+                          <h3 class="title-staff">Tom Ford</h3>
+                          <p class="paragraph-sthree">Frontend Developer</p>
+                        </div>
+                    </li>
+                    <li class="staff-card">
+                      <img class="foto" src="./images/camilagarcia/cg.jpg" alt="photo of a girl in a pink sweatshirt" width="264" height="260"/>
+                      <div class="card-discription">
+                        <h3 class="title-staff">Camila Garcia</h3>
+                        <p class="paragraph-sthree">Marketing</p>
+                      </div>
+                      </li>
+                    <li class="staff-card">
+                      <img class="foto" src="./images/danielwilson/dw.jpg" alt="photo of a man in a grey sweatshirt" width="264" height="260"/>
+                      <div class="card-discription">
+                        <h3 class="title-staff">Daniel Wilson</h3>
+                        <p class="paragraph-sthree">UI Designer</p>
+                      </div>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="section-portfolio">
           <div class="container">

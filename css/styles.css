@@ -17,6 +17,9 @@ body {
 main {
     
 }
+img {
+    display: block;
+}
 a{
     text-decoration: none;
 }
@@ -30,6 +33,7 @@ ul,ol {
 button{
     cursor: pointer;
 }
+
     /* ========= /Common styles =========*/
 
     /* ========= Page Headder styles =========*/
@@ -108,10 +112,7 @@ color: #2e2f42;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 188px;
-    padding-right: 487px;
-    padding-bottom: 292px;
-    padding-left: 487px;
+    padding: 188px 487px 292px 487px;
 }
 .hero-page{
     background: #2e2f42;
@@ -196,8 +197,8 @@ color: #2e2f42;
     display: flex;
     gap: 24px;
 }
-.foto {
-    padding-bottom: 32px;
+.card-discription {
+    padding: 32px 0;
 }
 .title-staff {
     font-weight: 500;
@@ -213,17 +214,14 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    padding-bottom: 32px;
 }
 .staff-card {
     background: #fff;
-    width: calc((100%-62px) /4 );
+    width: calc((100% - 62px) / 4 );
+    border-radius: 0 0 4px 4px;
 }
 .section-two {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    padding-left: 171px;
-    padding-right: 171px;
+    padding: 120px 171px;
     background-color: #fff;
 }
 
