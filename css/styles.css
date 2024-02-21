@@ -149,6 +149,12 @@ color: #2e2f42;
 /* ========= /Hero Page styles =========*/
 
 /* ========= Section 2 styles =========*/|
+.feature-page {
+    background-color: #fff;
+}
+.feature-container {
+    padding: 120px 0;
+}
 .list {
     list-style: none;
 }
@@ -207,6 +213,7 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .paragraph-sthree {
     font-size: 16px;
@@ -220,12 +227,7 @@ color: #2e2f42;
     width: calc((100% - 62px) / 4 );
     border-radius: 0 0 4px 4px;
 }
-.feature-page {
-    background-color: #fff;
-}
-.feature-container {
-    padding: 120px 0;
-}
+
 
 .section-img {
     background: #f4f4fd;
