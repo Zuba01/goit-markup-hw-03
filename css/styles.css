@@ -112,10 +112,10 @@ color: #2e2f42;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 188px 487px 292px 487px;
 }
 .hero-page{
     background: #2e2f42;
+    padding: 188px 487px 292px 487px;
 }
 .headline-hone {
     margin-bottom: 48px;
