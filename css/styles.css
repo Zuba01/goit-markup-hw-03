@@ -156,12 +156,12 @@ color: #2e2f42;
 }
 
 .visually-hidden {
-    text-indent: -9999px;
-    position: absolute;
-    left: -9999px;
-    width: 1px;
-    height: 1px;
+    position: absolute !important;
+    height: 1px; 
+    width: 1px; 
     overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px); /* обрезаем видимую область до 1 пикселя */
+    white-space: nowrap; /* обеспечиваем, чтобы содержимое не переносилось */
 }
 .list {
     list-style: none;
